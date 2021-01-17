@@ -1,4 +1,3 @@
-package Practiceweek9;
 import java.util.*;
 public class question1
 {
@@ -21,16 +20,13 @@ public class question1
 			{
 				for(int c=0;c<s;c++)
 				{
-					if(a!=b && b!=c && a!=c)
+							
+					if(A[a]+A[b]+A[c]==sum)
 					{
-						
-						if(A[a]+A[b]+A[c]==sum)
-						{
-							System.out.print(a+","+b+","+c);
-							break;
-						}
+						System.out.print(A[a]+","+A[b]+","+A[c]);
+						System.exit(0);
 					}
-					
+										
 				}
 			}
 		}
